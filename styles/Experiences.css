@@ -122,3 +122,7 @@ main div:hover {
 main p {
   font-size: 20px;
 }
+main b {
+  font-style: italic;
+  font-size: 30px;
+}

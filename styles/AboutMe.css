@@ -54,35 +54,75 @@ footer {
   width: 100%;
 }
 
-.mainphoto {
-  float: center;
-}
-
-.mainphoto img {
-  float: right;
-  width: 30%;
-  position: relative;
-  right: 36%;
-  top: 40px;
-}
-
-.mainphoto .content {
-  display: inline-block;
-}
-
-h2 {
+.logo {
   position: absolute;
-  width: 70%;
-  left: 19%;
-  bottom: 10%;
-  text-align: center;
-  font-size: 3em;
-  font-family: Lato;
-  color: #080808;
-  letter-spacing: 20px;
+  top: 10px;
+  left: 20px;
+}
+
+.logo img {
+  width: 150px;
+  position: relative;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons p {
+  margin-right: 20px;
+}
+
+.icons i {
+  padding: 5px;
 }
 
 main {
+  margin: 0 auto;
   height: 100%;
+  width: 750px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto 50%;
+}
+
+main div {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 255, 85, 0.507),
+    rgba(186, 248, 189, 0.349)
+  );
+  padding-bottom: 20px;
+  padding: 20px 20px;
+  border-radius: 5px 50% 5px 10%;
+  border: double 10px green;
+}
+
+main div img {
+  width: 200px;
+}
+
+main div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 255, 85),
+    rgba(186, 248, 189, 0.349)
+  );
+}
+
+main p {
+  font-size: 20px;
+}
+main b {
+  font-style: italic;
+  font-size: 30px;
 }
